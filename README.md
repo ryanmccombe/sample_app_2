@@ -1,0 +1,1 @@
+# Ruby on Rails Hartl Tutorial Sample Application
