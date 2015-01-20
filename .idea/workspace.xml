@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0223e571-f6af-4935-a5f7-6ec70ceb058c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/_follow.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/_follow_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_stats.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/_unfollow.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/relationships/create.js.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/relationships/destroy.js.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/show_follow.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/relationships.yml" afterPath="$PROJECT_DIR$/test/fixtures/relationships.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sample_app.iml" afterPath="$PROJECT_DIR$/.idea/sample_app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/models/user_test.rb" afterPath="$PROJECT_DIR$/test/models/user_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/show.html.erb" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/users_controller_test.rb" afterPath="$PROJECT_DIR$/test/controllers/users_controller_test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sample_app.iws" />
@@ -29,11 +42,13 @@
     <SUITE FILE_PATH="coverage/sample_app@Run_test__users_index_test___sample_app.coverage" NAME="Run test 'users_index_test': sample_app Coverage Results" MODIFIED="1421514024299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
     <SUITE FILE_PATH="coverage/sample_app@Run_test__users_login_test___sample_app.coverage" NAME="Run test 'users_login_test': sample_app Coverage Results" MODIFIED="1421226008920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
     <SUITE FILE_PATH="coverage/sample_app@Run_test__users_signup_test___sample_app.coverage" NAME="Run test 'users_signup_test': sample_app Coverage Results" MODIFIED="1421226150523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
-    <SUITE FILE_PATH="coverage/sample_app@test_should_follow_and_unfollow_a_user__sample_app.coverage" NAME="test_should_follow_and_unfollow_a_user: sample_app Coverage Results" MODIFIED="1421782781923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
+    <SUITE FILE_PATH="coverage/sample_app@test_should_follow_and_unfollow_a_user__sample_app.coverage" NAME="test_should_follow_and_unfollow_a_user: sample_app Coverage Results" MODIFIED="1421783023250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
     <SUITE FILE_PATH="coverage/sample_app@test_should_get_about__sample_app.coverage" NAME="test_should_get_about: sample_app Coverage Results" MODIFIED="1420722691156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
-    <SUITE FILE_PATH="coverage/sample_app@All_tests_in_test__sample_app.coverage" NAME="All tests in test: sample_app Coverage Results" MODIFIED="1421762679333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
-    <SUITE FILE_PATH="coverage/sample_app@Run_test__user_mailer_test___sample_app.coverage" NAME="Run test 'user_mailer_test': sample_app Coverage Results" MODIFIED="1421604981853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
+    <SUITE FILE_PATH="coverage/sample_app@Run_test__following_test___sample_app.coverage" NAME="Run test 'following_test': sample_app Coverage Results" MODIFIED="1421793374768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
+    <SUITE FILE_PATH="coverage/sample_app@All_tests_in_test__sample_app.coverage" NAME="All tests in test: sample_app Coverage Results" MODIFIED="1421792594076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
     <SUITE FILE_PATH="coverage/sample_app@test_should_redrect_destroy_when_wrong_user__sample_app.coverage" NAME="test_should_redrect_destroy_when_wrong_user: sample_app Coverage Results" MODIFIED="1421761781695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
+    <SUITE FILE_PATH="coverage/sample_app@Run_test__user_mailer_test___sample_app.coverage" NAME="Run test 'user_mailer_test': sample_app Coverage Results" MODIFIED="1421604981853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
+    <SUITE FILE_PATH="coverage/sample_app@test_should_redirect_following_when_not_logged_in__sample_app.coverage" NAME="test_should_redirect_following_when_not_logged_in: sample_app Coverage Results" MODIFIED="1421790851590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
     <SUITE FILE_PATH="coverage/sample_app@Run_test__users_edit_test___sample_app.coverage" NAME="Run test 'users_edit_test': sample_app Coverage Results" MODIFIED="1421505048448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
     <SUITE FILE_PATH="coverage/sample_app@Run_test__user_test___sample_app.coverage" NAME="Run test 'user_test': sample_app Coverage Results" MODIFIED="1421125472218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
     <SUITE FILE_PATH="coverage/sample_app@Run_test__UsersControllerTest___sample_app.coverage" NAME="Run test 'UsersControllerTest': sample_app Coverage Results" MODIFIED="1421513784867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
@@ -53,104 +68,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="following_test.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/integration/following_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="765">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.3915493" vertical-offset="388" max-vertical-offset="1098">
+              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seeds.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="picture_uploader.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/uploaders/picture_uploader.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
-              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20150120192133_create_relationships.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20150120192133_create_relationships.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1545">
-              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_test.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/models/user_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6556671" vertical-offset="623" max-vertical-offset="1335">
-              <caret line="72" column="45" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="relationship.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/relationship.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="relationship_test.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/models/relationship_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="relationships.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/fixtures/relationships.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_micropost_form.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/shared/_micropost_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="360">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-              <folding>
-                <marker date="1421781012080" expanded="true" signature="262:409" placeholder=" ... end" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -173,9 +96,27 @@
         <option value="$PROJECT_DIR$/db/migrate/20150120192133_create_relationships.rb" />
         <option value="$PROJECT_DIR$/test/models/relationship_test.rb" />
         <option value="$PROJECT_DIR$/app/models/relationship.rb" />
-        <option value="$PROJECT_DIR$/test/fixtures/relationships.yml" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/test/models/user_test.rb" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
+        <option value="$PROJECT_DIR$/app/views/shared/_stats.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/static_pages/home.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/users/_follow_form.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
+        <option value="$PROJECT_DIR$/test/controllers/users_controller_test.rb" />
+        <option value="$PROJECT_DIR$/app/views/users/show_follow.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/test/fixtures/relationships.yml" />
+        <option value="$PROJECT_DIR$/test/controllers/relationships_controller_test.rb" />
+        <option value="$PROJECT_DIR$/app/views/users/_follow.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/users/_unfollow.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/relationships_controller.rb" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/app/views/relationships/create.js.erb" />
+        <option value="$PROJECT_DIR$/app/views/relationships/destroy.js.erb" />
+        <option value="$PROJECT_DIR$/test/integration/following_test.rb" />
       </list>
     </option>
   </component>
@@ -269,7 +210,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="integration" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -284,24 +225,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sample_app_2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -310,7 +233,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="preferences.lookFeel" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.File Status" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -325,40 +248,7 @@
       <recent name="C:\Google Drive\webdev2015\sample_app\app\assets\images" />
     </key>
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.test_should_follow_and_unfollow_a_user: sample_app">
-    <configuration default="false" name="Run test 'microposts_controller_test': sample_app" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="sample_app" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift) -Itest" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/controllers/microposts_controller_test.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.Run test 'following_test': sample_app">
     <configuration default="false" name="All tests in test: sample_app" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="sample_app" />
@@ -384,39 +274,6 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/{*_test,test_*}.rb" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="test_should_redrect_destroy_when_wrong_user: sample_app" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="sample_app" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift) -Itest" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/controllers/microposts_controller_test.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_should_redrect_destroy_when_wrong_user" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
@@ -483,6 +340,72 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_should_follow_and_unfollow_a_user" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test_should_redirect_following_when_not_logged_in: sample_app" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="sample_app" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift) -Itest" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/controllers/users_controller_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_should_redirect_following_when_not_logged_in" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Run test 'following_test': sample_app" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="sample_app" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift) -Itest" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/integration/following_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
@@ -625,6 +548,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <list size="9">
@@ -632,19 +560,19 @@
       <item index="1" class="java.lang.String" itemvalue="Rake.spec: sample_app" />
       <item index="2" class="java.lang.String" itemvalue="Rails.Production: sample_app" />
       <item index="3" class="java.lang.String" itemvalue="Rails.Development: sample_app" />
-      <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'microposts_controller_test': sample_app" />
-      <item index="5" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in test: sample_app" />
-      <item index="6" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_should_redrect_destroy_when_wrong_user: sample_app" />
-      <item index="7" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'microposts_interface_test': sample_app" />
-      <item index="8" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_should_follow_and_unfollow_a_user: sample_app" />
+      <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in test: sample_app" />
+      <item index="5" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'microposts_interface_test': sample_app" />
+      <item index="6" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_should_follow_and_unfollow_a_user: sample_app" />
+      <item index="7" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_should_redirect_following_when_not_logged_in: sample_app" />
+      <item index="8" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'following_test': sample_app" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_should_follow_and_unfollow_a_user: sample_app" />
-        <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'microposts_interface_test': sample_app" />
-        <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_should_redrect_destroy_when_wrong_user: sample_app" />
-        <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in test: sample_app" />
-        <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'microposts_controller_test': sample_app" />
+        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'following_test': sample_app" />
+        <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in test: sample_app" />
+        <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_should_redirect_following_when_not_logged_in: sample_app" />
+        <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_should_follow_and_unfollow_a_user: sample_app" />
+        <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'microposts_interface_test': sample_app" />
       </list>
     </recent_temporary>
   </component>
@@ -673,18 +601,18 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959569" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32788375" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32788375" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32940108" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -708,90 +636,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4708455" vertical-offset="0" max-vertical-offset="833">
-          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/sessions_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="986">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/integration/users_signup_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7930029" vertical-offset="204" max-vertical-offset="918">
-          <caret line="44" column="11" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/account_activations_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3469388" vertical-offset="0" max-vertical-offset="686">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/user_mailer/password_reset.text.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="221">
-          <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/user_mailer/password_reset.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="289">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sessions/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="527">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/user_mailer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/mailers/user_mailer_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/password_resets/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="306">
@@ -828,20 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="425">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2389" max-vertical-offset="4386">
-          <caret line="191" column="1" selection-start-line="191" selection-start-column="1" selection-end-line="191" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/integration/users_profile_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
@@ -860,20 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1476834" vertical-offset="0" max-vertical-offset="1036">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5539359" vertical-offset="521" max-vertical-offset="1207">
-          <caret line="53" column="7" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -926,13 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="612">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/fixtures/microposts.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="901">
@@ -958,7 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="952">
           <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -966,7 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -974,7 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -982,7 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="285">
           <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -990,7 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -998,7 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1010,20 +813,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_micropost_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="360">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="360">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
-            <marker date="1421781012080" expanded="true" signature="262:409" placeholder=" ... end" />
+            <marker date="1421781012080" expanded="true" signature="-1:-1" placeholder=" ... end" />
           </folding>
         </state>
       </provider>
@@ -1060,14 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/fixtures/relationships.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1545">
@@ -1078,8 +865,176 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/models/user_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6556671" vertical-offset="623" max-vertical-offset="1335">
-          <caret line="72" column="45" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="1335">
+          <caret line="57" column="27" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/static_pages/home.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="702">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-158.0" vertical-offset="0" max-vertical-offset="5328">
+          <caret line="237" column="13" selection-start-line="237" selection-start-column="13" selection-end-line="237" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/_follow_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="252">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <marker date="1421790273180" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_stats.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="378">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding>
+            <marker date="1421789508608" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421789508608" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421789508608" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.333333" vertical-offset="0" max-vertical-offset="522">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding>
+            <marker date="1421790632984" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/show_follow.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.666666" vertical-offset="0" max-vertical-offset="612">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+          <folding>
+            <marker date="1421791504952" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421791504952" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421791504952" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421791504952" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421791504952" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421791504952" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1421791504952" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/controllers/users_controller_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="549" max-vertical-offset="1386">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="851" max-vertical-offset="1548">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/relationships.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4056338" vertical-offset="0" max-vertical-offset="710">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/controllers/relationships_controller_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/_follow.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="180">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/_unfollow.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="162">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/relationships_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/relationships/create.js.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="126">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/relationships/destroy.js.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.026354318" vertical-offset="0" max-vertical-offset="683">
+          <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/integration/following_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3915493" vertical-offset="388" max-vertical-offset="1098">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           <folding />
         </state>
       </provider>
