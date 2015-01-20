@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="RUBY_MODULE" version="4">
-  <component name="CompassSettings">
-    <option name="compassSupportEnabled" value="true" />
-  </component>
   <component name="FacetManager">
     <facet type="RailsFacetType" name="Ruby on Rails">
       <configuration>
@@ -25,7 +22,11 @@
       </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
@@ -45,7 +46,11 @@
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
@@ -66,7 +71,11 @@
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
@@ -88,7 +97,11 @@
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
@@ -113,7 +126,11 @@
       </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/integration/users_profile_test.rb" />
@@ -142,7 +159,11 @@
       </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/controllers/microposts_controller_test.rb" />
@@ -171,7 +192,11 @@
       </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$/test" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
@@ -200,7 +225,11 @@
       </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/controllers/microposts_controller_test.rb" />
@@ -229,7 +258,11 @@
       </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/integration/microposts_interface_test.rb" />
@@ -250,126 +283,126 @@
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="RVM: ruby-2.2.0" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="CFPropertyList (v2.3.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="actionmailer (v4.2.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="actionpack (v4.2.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="actionview (v4.2.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="activejob (v4.2.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="activemodel (v4.2.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="activerecord (v4.2.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="activesupport (v4.2.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="ansi (v1.4.3, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="arel (v6.0.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bcrypt (v3.1.9, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="binding_of_caller (v0.7.2, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bootstrap-sass (v3.2.0.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bootstrap-will_paginate (v0.0.10, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.2, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.7.10, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="byebug (v3.5.1, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="carrierwave (v0.10.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="celluloid (v0.16.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="coderay (v1.1.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v4.1.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.3.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.8.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="columnize (v0.9.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="debug_inspector (v0.0.2, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="debugger-linecache (v1.2.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="excon (v0.43.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="execjs (v2.2.2, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="faker (v1.4.3, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="ffi (v1.9.6, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fission (v0.5.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog (v1.27.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-atmos (v0.1.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-aws (v0.0.6, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-brightbox (v0.7.1, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-core (v1.27.3, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-ecloud (v0.0.2, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-json (v1.0.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-profitbricks (v0.0.1, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-radosgw (v0.0.3, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-sakuracloud (v1.0.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-serverlove (v0.1.1, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-softlayer (v0.3.30, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-storm_on_demand (v0.1.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-terremark (v0.0.3, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-vmfusion (v0.0.1, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-voxel (v0.0.2, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog-xml (v0.1.1, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="formatador (v0.2.5, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="globalid (v0.3.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="guard (v2.11.1, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="guard-minitest (v2.3.2, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.3, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="hitimes (v1.2.2, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="i18n (v0.7.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="inflecto (v0.0.2, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="ipaddress (v0.8.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.2.6, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v4.0.3, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="json (v1.8.2, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="listen (v2.8.5, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="loofah (v2.0.1, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="lumberjack (v1.0.9, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mail (v2.6.3, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="method_source (v0.8.2, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mime-types (v2.4.3, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mini_backtrace (v0.1.3, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mini_magick (v4.0.2, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="mini_portile (v0.6.2, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="minitest (v5.5.1, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="minitest-reporters (v1.0.8, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.10.1, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="nenv (v0.1.1, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="net-scp (v1.2.1, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="net-ssh (v2.9.2, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.6.5, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="notiffany (v0.0.3, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="pry (v0.10.1, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rack (v1.6.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.3, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails (v4.2.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails-deprecated_sanitizer (v1.0.3, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails-dom-testing (v1.0.5, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails-html-sanitizer (v1.0.1, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails_12factor (v0.0.3, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails_serve_static_assets (v0.0.3, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rails_stdout_logging (v0.0.3, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="railties (v4.2.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rake (v10.4.2, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rb-fsevent (v0.9.4, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rb-inotify (v0.9.5, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rdoc (v4.2.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="ruby-progressbar (v1.7.1, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sass (v3.4.9, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sass-rails (v5.0.1, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sdoc (v0.4.1, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="shellany (v0.0.1, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="slop (v3.6.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="spring (v1.2.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.12.3, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v2.2.2, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sqlite3 (v1.3.10, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="thor (v0.19.1, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="thread_safe (v0.3.4, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="tilt (v1.4.1, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="timers (v4.0.1, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="turbolinks (v2.5.3, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="tzinfo (v1.2.2, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="tzinfo-data (v1.2014.10, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="uglifier (v2.7.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="web-console (v2.0.0, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="will_paginate (v3.0.7, ruby-2.1.5-p273) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="win32console (v1.3.2, ruby-2.1.5-p273) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="CFPropertyList (v2.3.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="actionmailer (v4.2.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="actionpack (v4.2.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="actionview (v4.2.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="activejob (v4.2.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="activemodel (v4.2.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="activerecord (v4.2.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="activesupport (v4.2.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ansi (v1.4.3, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="arel (v6.0.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bcrypt (v3.1.9, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="binding_of_caller (v0.7.2, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bootstrap-sass (v3.2.0.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bootstrap-will_paginate (v0.0.10, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="builder (v3.2.2, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.7.12, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="byebug (v3.5.1, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="carrierwave (v0.10.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="celluloid (v0.16.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="coderay (v1.1.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v4.1.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.3.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.8.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="columnize (v0.9.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="debug_inspector (v0.0.2, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="debugger-linecache (v1.2.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="excon (v0.43.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="execjs (v2.2.2, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="faker (v1.4.3, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ffi (v1.9.6, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fission (v0.5.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog (v1.27.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-atmos (v0.1.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-aws (v0.0.6, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-brightbox (v0.7.1, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-core (v1.27.3, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-ecloud (v0.0.2, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-json (v1.0.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-profitbricks (v0.0.1, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-radosgw (v0.0.3, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-sakuracloud (v1.0.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-serverlove (v0.1.1, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-softlayer (v0.3.30, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-storm_on_demand (v0.1.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-terremark (v0.0.3, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-vmfusion (v0.0.1, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-voxel (v0.0.2, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog-xml (v0.1.1, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="formatador (v0.2.5, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="globalid (v0.3.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="guard (v2.11.1, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="guard-minitest (v2.3.2, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.3, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="hitimes (v1.2.2, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="i18n (v0.7.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="inflecto (v0.0.2, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ipaddress (v0.8.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.2.6, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v4.0.3, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="json (v1.8.2, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="kgio (v2.9.3, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="listen (v2.8.5, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="loofah (v2.0.1, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="lumberjack (v1.0.9, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mail (v2.6.3, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="method_source (v0.8.2, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mime-types (v2.4.3, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mini_backtrace (v0.1.3, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mini_magick (v4.0.2, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="mini_portile (v0.6.2, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="minitest (v5.5.1, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="minitest-reporters (v1.0.8, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.10.1, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="nenv (v0.1.1, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="net-scp (v1.2.1, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="net-ssh (v2.9.2, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.6.5, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="notiffany (v0.0.3, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pry (v0.10.1, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack (v1.6.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.3, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rails (v4.2.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rails-deprecated_sanitizer (v1.0.3, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rails-dom-testing (v1.0.5, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rails-html-sanitizer (v1.0.1, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rails_12factor (v0.0.3, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rails_serve_static_assets (v0.0.3, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rails_stdout_logging (v0.0.3, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="railties (v4.2.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="raindrops (v0.13.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rake (v10.4.2, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rb-fsevent (v0.9.4, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rb-inotify (v0.9.5, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rdoc (v4.2.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ruby-progressbar (v1.7.1, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sass (v3.4.9, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sass-rails (v5.0.1, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sdoc (v0.4.1, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="shellany (v0.0.1, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="slop (v3.6.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="spring (v1.2.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.12.3, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v2.2.2, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sqlite3 (v1.3.10, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="thor (v0.19.1, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="thread_safe (v0.3.4, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tilt (v1.4.1, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="timers (v4.0.1, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="turbolinks (v2.5.3, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tzinfo (v1.2.2, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="uglifier (v2.7.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="unicorn (v4.8.3, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="web-console (v2.0.0, RVM: ruby-2.2.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="will_paginate (v3.0.7, RVM: ruby-2.2.0) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />
     <I18N_FOLDERS number="1" string0="$MODULE_DIR$/config/locales" />
   </component>
 </module>
-
